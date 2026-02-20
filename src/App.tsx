@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { type Candidate, type Job, getCandidateByEmail } from "./services/api";
+import { getCandidateByEmail } from "./services/api";
 import { getJobs } from "./services/api";
 import JobList from "./components/JobList";
+import type { Candidate, Job } from "./services/api";
 
 function App() {
   const [candidate, setCandidate] = useState<Candidate | null>(null);
