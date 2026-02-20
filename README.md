@@ -4,8 +4,8 @@ Mini React app to apply for an open position.
 
 ## How to run
 
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 ## Stack
 
